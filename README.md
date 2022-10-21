@@ -1,3 +1,8 @@
+this is the first version, currently started to add more functionality to the app and hence this repo is to secure previous work.
+firstly i am working locally after all the checks and tricks i will upload it.
+
+the second version will be released soon...
+
 # Graph Visualiser
 This is a graph visualiser which can run various graph 
 algorithms on the input graph. You can simulate the following algorithms

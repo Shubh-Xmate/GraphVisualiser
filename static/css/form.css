@@ -1,0 +1,94 @@
+            /*beautiful form css*/
+            .myform {
+            position: relative;
+            width: 80%;
+            border-radius: 30px;
+            background: #fff;
+            }
+            .form-left-decoration,
+            .form-right-decoration {
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 20px;
+            border-radius: 20px;
+            background: rgba(232, 159, 31, 0.99);
+            }
+            .form-left-decoration {
+            bottom: 60px;
+            left: -30px;
+            }
+            .form-right-decoration {
+            top: 60px;
+            right: -30px;
+            }
+            .form-left-decoration:before,
+            .form-left-decoration:after,
+            .form-right-decoration:before,
+            .form-right-decoration:after {
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 20px;
+            border-radius: 30px;
+            background: #fff;
+            }
+            .form-left-decoration:before {
+            top: -20px;
+            }
+            .form-left-decoration:after {
+            top: 20px;
+            left: 10px;
+            }
+            .form-right-decoration:before {
+            top: -20px;
+            right: 0;
+            }
+            .form-right-decoration:after {
+            top: 20px;
+            right: 10px;
+            }
+            .circle {
+            position: absolute;
+            bottom: 80px;
+            left: -55px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #fff;
+            }
+            .form-inner {
+            padding: 40px;
+            }
+            .form-inner input,
+            .form-inner textarea {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 20px;
+            background: #d0dfe8;
+            }
+            .form-inner textarea {
+            resize: none;
+            }
+            .mybutton {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 20px;
+            border: none;
+            border-bottom: 4px solid #c98a23;
+            background: #e89f1f;
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            }
+            button:hover {
+            background: #c98a23;
+            }
+
+            #form-heading {
+                color: #44ACAAFF;
+            }
